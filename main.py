@@ -61,5 +61,5 @@ def menor_rota():
 
     print(' '.join(melhor_rota))
 
-
-menor_rota()
+if __name__ == "__main__":
+    menor_rota()
