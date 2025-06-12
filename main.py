@@ -59,7 +59,7 @@ def menor_rota():
 
     backtracking(lista_pontos, pontos, origem, [], set(), origem, 0, [melhor_rota, melhor_distancia], memo)
 
-    print(' '.join(melhor_rota))
+    print(' '.join(melhor_rota),f'\nDistância em Dronômetros: {melhor_distancia[0]}')
 
 if __name__ == "__main__":
     menor_rota()
